@@ -1,0 +1,72 @@
+/*
+ * Copyright (c) 2023 Aeonix
+ * All Rights Reserved
+ */
+
+{
+    "cmake.showOptionsMovedNotification": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "psi-header.license-reference": {
+
+    },
+    "psi-header.config": 
+    {
+
+        "forceToTop": true,
+        "blankLinesAfter": 1,
+        "spacesBetweenYears": false,
+        "author": "Konrad Schellenberger",
+        "initials": "ASB",
+        "company": "Aeonix"
+
+    },
+    "psi-header.changes-tracking": 
+    {
+    
+
+        "isActive": true,
+        "modAuthor": "Modified By:",
+        "modDate": "Modified:",
+        "modDateFormat": "DD MM YYYY",
+        "include": [],
+        "exclude": 
+        [
+            "markdown","json"
+        ],
+        "includeGlob": [],
+        "enforceHeader": true,
+        "updateLicenseVariables": true
+    },
+    "psi-header.variables": 
+    [
+        ["url", "https://github.com/Aeonix-OHG"]
+    ],
+    "psi-header.templates": [
+        {
+            "language": "*",
+            "template": 
+            [
+                "Copyright (c) <<year>> <<company>> <<url>>",
+                "All Rights Reserved",
+                "Project: <<projectName>>",
+                "File: <<filename>>",
+                "",
+                "Author: <<author>>",
+                "Created: <<filecreated(DD MM yyyy)>>",
+                "Modified:",
+                "Modified By:",
+
+
+
+
+
+
+            ]
+        }
+    ],
+    "window.zoomLevel": 1,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "leetcode.workspaceFolder": "/home/konrad/.leetcode",
+    "leetcode.hint.commandShortcut": false
+}
